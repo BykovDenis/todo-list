@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b176835-ccfd-446b-9d95-c6e581d232e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/constants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/data/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/combine-reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list-input/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/todo-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/combine-reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/combine-reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/todo-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +57,10 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/components/app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -63,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587793383916</updated>
-      <workItem from="1587793385282" duration="1819000" />
+      <workItem from="1587793385282" duration="6758000" />
     </task>
     <servers />
   </component>
