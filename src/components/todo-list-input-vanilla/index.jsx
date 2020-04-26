@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './index.css';
+import withTodoList from '../../hocs/with-todo-list';
 
 function TodoListInputVanilla(props) {
   const onTodoListItemChange = (evt) => {
@@ -17,11 +18,16 @@ function TodoListInputVanilla(props) {
     }
     evt.stopPropagation();
   };
-
   return (
     <div className="container">
       <label htmlFor="todo-element">Todo элемент</label> {'     '}
-      <input className="input" type="text" id="todo-element" value={props.todoListItem} onChange={onTodoListItemChange} />
+      <input
+        className="input"
+        type="text"
+        id="todo-element"
+        value={props.todoListItem}
+        onChange={onTodoListItemChange}
+      />
       <button className="button" color="primary" onClick={onTodoListItemAppend}>
         Add
       </button>
@@ -35,4 +41,4 @@ TodoListInputVanilla.propTypes = {
   todoListAddItem: PropTypes.func.isRequired,
 };
 
-export default TodoListInputVanilla;
+export default withTodoList(TodoListInputVanilla);

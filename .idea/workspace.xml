@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b176835-ccfd-446b-9d95-c6e581d232e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/main-section/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/todo-list-input-vanilla.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/todo-list-vanilla-2.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hocs/with-todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-input-vanilla/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-input-vanilla/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/todo-list-vanilla.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/todo-list-vanilla.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/todo-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/todo-list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -64,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587793383916</updated>
-      <workItem from="1587793385282" duration="8318000" />
+      <workItem from="1587793385282" duration="16757000" />
     </task>
     <servers />
   </component>

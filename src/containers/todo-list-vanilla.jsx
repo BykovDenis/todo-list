@@ -1,19 +1,12 @@
 import React from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import { createSelector } from 'reselect';
 import TodoListVanillaComponent from '../components/todo-list-vanilla';
-import TodoListInputVanilla from '../components/todo-list-input-vanilla';
-import { todoListChangeItem, todoListAddItem } from '../redux/actions';
+import { createSelector } from 'reselect';
+import { connect } from 'react-redux';
 
 function TodoListVanilla(props) {
+  console.log('render2')
   return (
     <div>
-      <TodoListInputVanilla
-        todoListItem={props.todoListItem}
-        todoListChangeItem={props.todoListChangeItem}
-        todoListAddItem={props.todoListAddItem}
-      />
       <TodoListVanillaComponent todoListItems={props.todoListItems} />
     </div>
   );
@@ -21,21 +14,14 @@ function TodoListVanilla(props) {
 
 const todoListItems = (state) => state.todoList.todoListItems;
 
-const getTodoListItemsSelector = createSelector(todoListItems, (items) => items);
+const getTodoListItemsSelector = createSelector(todoListItems, (items) => {
+  return items;
+});
 
 function mapStateToProps(state) {
   return {
     todoListItems: getTodoListItemsSelector(state), //state.todoList.todoListItems,
-    todoListItem: state.todoList.todoListItem,
   };
 }
 
-function mapDispatchToProps(dispatch) {
-  const bindActions = {
-    todoListChangeItem,
-    todoListAddItem,
-  };
-  return bindActionCreators(bindActions, dispatch);
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(TodoListVanilla);
+export default connect(mapStateToProps, null)(TodoListVanilla);

@@ -8,7 +8,7 @@ import reducers from './redux/reducers/combine-reducers';
 import './index.css';
 import App from './components/app';
 // import TodoList from './containers/todo-list';
-import TodoListVanilla from './containers/todo-list-vanilla';
+import MainSection from './components/main-section';
 import * as serviceWorker from './serviceWorker';
 
 const middlewares = [
@@ -17,7 +17,7 @@ const middlewares = [
     promiseTypeSuffixes: ['LOADING', 'SUCCESS', 'ERROR'],
   }),
 ];
-
+/*
 let devTools;
 
 if (process.env.NODE_ENV !== 'production') {
@@ -27,14 +27,15 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   devTools = (f) => f;
 }
-
-const store = createStore(reducers, compose(applyMiddleware(...middlewares), devTools));
+*/
+// const store = createStore(reducers, compose(applyMiddleware(...middlewares), devTools));
+const store = createStore(reducers, compose(applyMiddleware(...middlewares)));
 
 function AppRoot() {
   return (
     <Provider store={store}>
       <App>
-        <TodoListVanilla />
+        <MainSection />
       </App>
     </Provider>
   );
