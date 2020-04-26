@@ -7,7 +7,8 @@ import promiseMiddleware from 'redux-promise-middleware';
 import reducers from './redux/reducers/combine-reducers';
 import './index.css';
 import App from './components/app';
-import TodoList from './containers/todo-list';
+// import TodoList from './containers/todo-list';
+import TodoListVanilla from './containers/todo-list-vanilla';
 import * as serviceWorker from './serviceWorker';
 
 const middlewares = [
@@ -33,7 +34,7 @@ function AppRoot() {
   return (
     <Provider store={store}>
       <App>
-        <TodoList />
+        <TodoListVanilla />
       </App>
     </Provider>
   );

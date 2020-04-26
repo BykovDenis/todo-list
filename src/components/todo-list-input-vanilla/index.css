@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.input {
+  padding: 10px 15px;
+  margin: 0 15px;
+  font-size: 14px;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  width: 150px;
+}
