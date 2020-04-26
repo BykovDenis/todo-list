@@ -6,7 +6,9 @@ import thunk from 'redux-thunk';
 import promiseMiddleware from 'redux-promise-middleware';
 import reducers from './redux/reducers/combine-reducers';
 import './index.css';
-import App from './App';
+import App from './components/app';
+// import TodoList from './containers/todo-list';
+import TodoListVanilla from './containers/todo-list-vanilla';
 import * as serviceWorker from './serviceWorker';
 
 const middlewares = [
@@ -31,7 +33,9 @@ const store = createStore(reducers, compose(applyMiddleware(...middlewares), dev
 function AppRoot() {
   return (
     <Provider store={store}>
-      <App />
+      <App>
+        <TodoListVanilla />
+      </App>
     </Provider>
   );
 }
