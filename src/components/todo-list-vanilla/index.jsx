@@ -7,7 +7,7 @@ function TodoListVanilla(props) {
     <table className="table">
       <thead>
         <tr>
-          <th>Todo name</th>
+          <th className="table-cell">Todo name</th>
         </tr>
       </thead>
       <tbody>

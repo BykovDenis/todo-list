@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b176835-ccfd-446b-9d95-c6e581d232e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-input-vanilla/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-input-vanilla/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/todo-list-vanilla.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-vanilla/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587793383916</updated>
-      <workItem from="1587793385282" duration="8055000" />
+      <workItem from="1587793385282" duration="8318000" />
     </task>
     <servers />
   </component>
